@@ -11,7 +11,7 @@ M.dark = {
     green = "#87c7a1",
     yellow = "#6791c9",
     blue = "#de8f78",
-    magenta = "#e29eca",
+    magenta = "#70b9cc",
     cyan = "#df5b61",
     white = "#c4c4c4",
     -- Bright
@@ -20,7 +20,7 @@ M.dark = {
     bright_green = "#96d6b0",
     bright_yellow = "#7ba5dd",
     bright_blue = "#ffb29b",
-    bright_magenta = "#ecaad6",
+    bright_magenta = "#7fc8db",
     bright_cyan = "#ee6a70",
     bright_white = "#cccccc",
     -- Grays

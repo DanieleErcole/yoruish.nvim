@@ -78,7 +78,7 @@ local set_groups = function()
         ["Directory"] = { fg = c.blue },                       -- directory names (and other special names in listings)
         ["DiffAdd"] = { bg = c.green, fg = c.black },          -- diff mode: Added line
         ["DiffChange"] = { fg = c.yellow, underline = true },  -- diff mode: Changed line
-        ["DiffDelete"] = { bg = c.red, fg = c.black },         -- diff mode: Deleted line
+        ["DiffDelete"] = { bg = c.cyan, fg = c.black },        -- diff mode: Deleted line
         ["DiffText"] = { bg = c.yellow, fg = c.black },        -- diff mode: Changed text within a changed line
         ["EndOfBuffer"] = { fg = c.gray02 },                   -- '~' and '@' at the end of the window
         ["ErrorMsg"] = { fg = c.red },                         -- error messages on the command line
@@ -269,12 +269,12 @@ local set_groups = function()
 
         -- GitSigns
         ["GitSignsAdd"] = { fg = c.green },
-        ["GitSignsChange"] = { fg = c.yellow },
-        ["GitSignsDelete"] = { fg = c.red },
+        ["GitSignsChange"] = { fg = c.blue },
+        ["GitSignsDelete"] = { fg = c.cyan },
 
         -- Diff
         ["diffAdded"] = { fg = c.bright_green },
-        ["diffRemoved"] = { fg = c.bright_red },
+        ["diffRemoved"] = { fg = c.bright_cyan },
         ["diffChanged"] = { fg = c.bright_yellow },
         ["diffOldFile"] = { fg = c.gray04 },
         ["diffNewFile"] = { fg = c.white },
