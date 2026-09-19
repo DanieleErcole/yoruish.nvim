@@ -167,7 +167,7 @@ local set_groups = function()
         ["@keyword.function"] = { fg = c.cyan, style = cfg.function_style },
         ["@namespace"] = { fg = c.cyan, italic = true },
         ["@parameter"] = { fg = c.magenta },
-        ["@property"] = { fg = c.gray07 },
+        ["@property"] = { fg = c.bright_blue },
         ["@punctuation"] = { fg = c.gray06 },
         ["@punctuation.delimiter"] = { fg = c.gray06 },
         ["@punctuation.bracket"] = { fg = c.gray06 },
