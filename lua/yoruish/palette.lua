@@ -32,14 +32,14 @@ local palette = {
     -- Accents -- the actual identity of this theme. Four hues, one concept each.
     keyword = "#de8f78", -- keywords, numbers, builtin types, macros (weight, not hue, sets macros apart)
     func = "#6791c9",    -- function/method calls
-    type = "#70b9cc",    -- types, traits, constants, JSX/TSX tags
+    type = "#df5b61",    -- types, traits, constants, JSX/TSX tags
     string = "#87c7a1",  -- string literals, regex
     signal = "#de7c6b",  -- warm UI cue, not a syntax color: search/jump-target bg, git-change, dashboard keys
 
     -- Diagnostics, ranked by urgency (all 6.9-9.0 contrast against bg)
     error = "#df5b61",
     warning = "#d9a35a",
-    info = "#8c9cb8",
+    info = "#70b9cc",
     hint = "#b09080",
     ok = "#87c7a1",
 
