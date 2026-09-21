@@ -26,7 +26,7 @@ local palette = {
     cream = "#f0e0d6",
 
     -- Foundation
-    black = "#000000",
+    black = "#161717",
     white = "#ffffff",
 
     -- Accents -- the actual identity of this theme. Four hues, one concept each.
