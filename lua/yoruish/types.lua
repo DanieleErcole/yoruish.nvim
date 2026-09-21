@@ -1,0 +1,4 @@
+---@class yoruish.Highlight: vim.api.keyset.highlight
+---@field style? vim.api.keyset.highlight
+---@alias yoruish.Highlights table<string,yoruish.Highlight|string>
+---@alias yoruish.HighlightsFn fun(colors: Palette, opts:yoruish.Config):yoruish.Highlights
