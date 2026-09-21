@@ -32,9 +32,9 @@ local palette = {
     -- Accents -- the actual identity of this theme. Four hues, one concept each.
     keyword = "#de8f78", -- keywords, numbers, builtin types, macros (weight, not hue, sets macros apart)
     func = "#6791c9",    -- function/method calls
-    type = "#df5b61",    -- types, traits, constants, JSX/TSX tags
+    type = "#de7c6b",    -- types, traits, constants, JSX/TSX tags
     string = "#87c7a1",  -- string literals, regex
-    signal = "#de7c6b",  -- warm UI cue, not a syntax color: search/jump-target bg, git-change, dashboard keys
+    signal = "#df5b61",  -- warm UI cue, not a syntax color: search/jump-target bg, git-change, dashboard keys
 
     -- Diagnostics, ranked by urgency (all 6.9-9.0 contrast against bg)
     error = "#df5b61",
@@ -59,7 +59,7 @@ palette.line_nr = Util.blend_bg(palette.grey_warm, 0.45, palette.bg)
 palette.git = {
     add = { fg = palette.ok, bg = Util.blend_bg(palette.ok, 0.14, palette.bg) },
     delete = { fg = palette.error, bg = palette.bg_delete },
-    change = { fg = palette.signal, bg = Util.blend_bg(palette.signal, 0.10, palette.bg) },
+    change = { fg = palette.warning, bg = Util.blend_bg(palette.warning, 0.10, palette.bg) },
     text = { fg = palette.fg_bright, bg = Util.blend_bg(palette.signal, 0.30, palette.bg) },
 }
 
