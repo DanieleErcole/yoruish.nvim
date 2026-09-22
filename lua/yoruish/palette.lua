@@ -21,8 +21,8 @@ local palette = {
     grey_light = "#989898",
     grey_pale = "#b8b8b8",
     silver = "#c7c7c7",
-    fg = "#e4e4e8",
-    fg_bright = "#f0f0f0",
+    fg = "#c4c6d0",
+    fg_bright = "#d0d2d6",
     cream = "#f0e0d6",
 
     -- Foundation
