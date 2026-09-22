@@ -27,7 +27,7 @@ local palette = {
 
     -- Foundation
     black = "#161717",
-    white = "#ffffff",
+    white = "#dddddd",
 
     -- Accents -- the actual identity of this theme. Four hues, one concept each.
     keyword = "#de8f78", -- keywords, numbers, builtin types, macros (weight, not hue, sets macros apart)
