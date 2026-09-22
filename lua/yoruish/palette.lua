@@ -15,7 +15,7 @@ local palette = {
 
     -- Greys, dim to bright. True neutral (sat=0) except grey_warm, kept intentionally warm.
     grey_warm = "#605958",
-    comment = "#3e3e43",
+    comment = "#4e4e53",
     grey = "#575757",
     grey_mid = "#757575",
     grey_light = "#989898",
