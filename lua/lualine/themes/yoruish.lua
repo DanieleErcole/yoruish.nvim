@@ -1,20 +1,44 @@
-local cfg = require("yoruish.config").config
-local colors = require("yoruish.colors")[cfg.variant]
+local c = require("luna.palette")
+local config = require("luna.config")
+
+local opts = config.opts or config.defaults
+
+local normal_bg = c.func
+local insert_bg = c.type
+local visual_bg = c.grey_light
+local replace_bg = c.comment
+local command_bg = c.silver
+local section_c_bg = opts.transparent and "NONE" or c.bg
 
 return {
     normal = {
-        a = { fg = colors.bg, bg = colors.cyan, gui = "bold" },
-        b = { fg = colors.white, bg = colors.gray02 },
-        c = { fg = colors.white, bg = colors.gray01 },
+        a = { fg = c.black, bg = normal_bg },
+        b = { fg = c.fg, bg = c.bg_alt },
+        c = { fg = c.fg_bright, bg = section_c_bg },
     },
-    command = { a = { fg = colors.bg, bg = colors.yellow, gui = "bold" } },
-    insert = { a = { fg = colors.bg, bg = colors.blue, gui = "bold" } },
-    visual = { a = { fg = colors.bg, bg = colors.magenta, gui = "bold" } },
-    terminal = { a = { fg = colors.bg, bg = colors.green, gui = "bold" } },
-    replace = { a = { fg = colors.bg, bg = colors.red, gui = "bold" } },
+    insert = {
+        a = { fg = c.black, bg = insert_bg },
+        b = { fg = c.fg, bg = c.bg_alt },
+        c = { fg = c.fg_bright, bg = section_c_bg },
+    },
+    visual = {
+        a = { fg = c.black, bg = visual_bg },
+        b = { fg = c.fg, bg = c.bg_alt },
+        c = { fg = c.fg_bright, bg = section_c_bg },
+    },
+    replace = {
+        a = { fg = c.black, bg = replace_bg },
+        b = { fg = c.fg, bg = c.bg_alt },
+        c = { fg = c.fg_bright, bg = section_c_bg },
+    },
+    command = {
+        a = { fg = c.black, bg = command_bg },
+        b = { fg = c.fg, bg = c.bg_alt },
+        c = { fg = c.fg_bright, bg = section_c_bg },
+    },
     inactive = {
-        a = { fg = colors.gray05, bg = colors.bg_dark, gui = "bold" },
-        b = { fg = colors.gray05, bg = colors.bg_dark },
-        c = { fg = colors.gray05, bg = colors.bg_dark },
+        a = { fg = c.grey, bg = c.bg_alt },
+        b = { fg = c.grey, bg = c.bg_alt },
+        c = { fg = c.grey, bg = section_c_bg },
     },
 }
