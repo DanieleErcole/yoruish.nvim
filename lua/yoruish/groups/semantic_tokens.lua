@@ -45,6 +45,7 @@ function M.get(c, opts)
         ["@lsp.typemod.struct.defaultLibrary.rust"] = "Type",
         ["@lsp.type.builtinType.rust"] = "Type",
         ["@lsp.type.macro.rust"] = "rustMacro",
+        ["@lsp.typemod.macro.library.rust"] = "rustMacro",
         ["@lsp.typemod.variable.callable"] = "@function",
         ["@lsp.typemod.variable.defaultLibrary"] = "@variable.builtin",
         ["@lsp.typemod.variable.injected"] = "@variable",
