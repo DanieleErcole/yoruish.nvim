@@ -42,6 +42,8 @@ function M.get(c, opts)
         rustModPath = { fg = c.fg },
         rustMacro = { fg = c.signal },
 
+        LspTypeNamespaceRust = { link = "rustModPath" },
+
         -- HTML
         htmlTag = { fg = c.grey_light },
         htmlEndTag = { fg = c.grey_light },
