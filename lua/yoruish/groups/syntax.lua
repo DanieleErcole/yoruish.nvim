@@ -11,7 +11,7 @@ function M.get(c, opts)
         Exception = { fg = c.keyword },
         Function = { fg = c.func },
         Identifier = { fg = c.fg },
-        Include = { fg = c.signal },
+        Include = { fg = c.fg },
         Italic = {},
         Keyword = { fg = c.keyword },
         Number = { fg = c.number },
@@ -38,8 +38,7 @@ function M.get(c, opts)
         LspReferenceText = { bg = c.selection },
         LspSignatureActiveParameter = { fg = c.warning },
 
-        -- Rust specific
-        rustModPath = { fg = c.fg },
+        -- Rust
         rustMacro = { fg = c.signal },
 
         -- HTML
