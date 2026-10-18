@@ -16,7 +16,7 @@ function M.get(c, opts)
         Keyword = { fg = c.keyword },
         Number = { fg = c.number },
         Operator = { fg = c.grey_light },
-        PreProc = { fg = c.ok },
+        PreProc = { fg = c.hint },
         Property = { fg = c.fg },
         Special = { fg = c.grey_light },
         SpecialChar = { fg = c.grey_light },
@@ -37,6 +37,10 @@ function M.get(c, opts)
         LspReferenceWrite = { bg = c.selection },
         LspReferenceText = { bg = c.selection },
         LspSignatureActiveParameter = { fg = c.warning },
+
+        -- Rust specific
+        rustModPath = { fg = c.fg },
+        rustMacro = { fg = c.signal },
 
         -- HTML
         htmlTag = { fg = c.grey_light },
