@@ -27,6 +27,10 @@ function M.setup(opts)
     for group, hl in pairs(groups) do
         if group == "_terminal_colors" then
             terminal_colors = hl
+        else if group == "rustModPath" then
+            hl = type(hl) == "string" and { link = hl } or hl
+            vim.api.nvim_set_hl(0, group, hl)
+            vim.api.nvim_set_hl(0, "@lsp.type.namespace.rust", { link = hl })
         else
             hl = type(hl) == "string" and { link = hl } or hl
             vim.api.nvim_set_hl(0, group, hl)
