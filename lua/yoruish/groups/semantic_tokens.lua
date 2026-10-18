@@ -26,7 +26,7 @@ function M.get(c, opts)
         ["@lsp.type.property.terraform"] = {},
         ["@lsp.type.selfKeyword"] = "@variable.builtin",
         ["@lsp.type.selfTypeKeyword"] = "@variable.builtin",
-        ["@lsp.type.string"] = {}, -- use treesitter styles for strings
+        ["@lsp.type.string"] = {},   -- use treesitter styles for strings
         ["@lsp.type.typeAlias"] = "@type.definition",
         ["@lsp.type.variable"] = {}, -- use treesitter styles for regular variables
         ["@lsp.typemod.class.defaultLibrary"] = "@type.builtin",
@@ -44,6 +44,7 @@ function M.get(c, opts)
         ["@lsp.typemod.struct.defaultLibrary"] = "@type.builtin",
         ["@lsp.typemod.struct.defaultLibrary.rust"] = "Type",
         ["@lsp.type.builtinType.rust"] = "Type",
+        ["@lsp.type.macro.rust"] = "rustMacro",
         ["@lsp.typemod.variable.callable"] = "@function",
         ["@lsp.typemod.variable.defaultLibrary"] = "@variable.builtin",
         ["@lsp.typemod.variable.injected"] = "@variable",
