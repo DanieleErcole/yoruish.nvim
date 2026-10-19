@@ -7,3 +7,13 @@ For the code structure, I used the [luna.nvim](https://github.com/WTFox/luna.nvi
 
 **Rust**
 ![Rust screenshot](./assets/rust_screen.png)
+**Python**
+![Python screenshot](./assets/python_screen.png)
+**Java**
+![Java screenshot](./assets/java_screen.png)
+**C#**
+![C# screenshot](./assets/csharp_screen.png)
+**Lazygit**
+![Lazygit screenshot](./assets/lazygit_screen.png)
+**kitty terminal**
+![Kitty screenshot](./assets/kitty_screen.png)
