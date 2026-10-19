@@ -44,6 +44,9 @@ function M.get(c, opts)
         -- Python
         pythonInclude = { link = "Keyword" },
 
+        -- Java
+        javaExternal = { link = "Keyword" },
+
         -- HTML
         htmlTag = { fg = c.grey_light },
         htmlEndTag = { fg = c.grey_light },
