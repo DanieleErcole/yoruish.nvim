@@ -22,7 +22,7 @@ function M.get(c, opts)
         SpecialChar = { fg = c.grey_light },
         Statement = { link = "Keyword" },
         String = { fg = c.string },
-        Structure = { fg = c.string },
+        Structure = { fg = c.type },
         Todo = { fg = c.string },
         Type = { fg = c.type },
         Underlined = { undercurl = true },
