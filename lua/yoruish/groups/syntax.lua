@@ -41,6 +41,9 @@ function M.get(c, opts)
         -- Rust
         rustMacro = { fg = c.signal },
 
+        -- Python
+        pythonInclude = { link = "Keyword" },
+
         -- HTML
         htmlTag = { fg = c.grey_light },
         htmlEndTag = { fg = c.grey_light },
